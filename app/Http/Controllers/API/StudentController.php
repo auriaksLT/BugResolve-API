@@ -48,7 +48,7 @@ class StudentController extends Controller
 
         return response()->json([
             'status' => 200,
-            'message' => 'Student Added Successfully',
+            'message' => 'Student Added Successfully!',
         ]);
     }
 
@@ -63,7 +63,7 @@ class StudentController extends Controller
 
         return response()->json([
             'status' => 200,
-            'message' => 'Student Updated Successfully',
+            'message' => 'Student Updated Successfully!',
         ]);
     }
 }
